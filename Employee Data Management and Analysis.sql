@@ -111,11 +111,11 @@ INSERT INTO WORKS_ON (ESRNO,PNO,HOURS) VALUES (215152, 17, 2.32) ;
 INSERT INTO WORKS_ON (ESRNO,PNO,HOURS) VALUES (495823, 11, 4.15) ;
 
 
-/*A)	List the salary of all the employees.  */
+/*A)cList the salary of all the employees.  */
 
 SELECT ENAME, SALARY FROM EMPLOYEE;
 
-/*B)	Display the names of all employees with any “A” at any place of the name. */
+/*B) Display the names of all employees with any “A” at any place of the name. */
 
 SELECT ENAME FROM EMPLOYEE WHERE ENAME LIKE '%A%';
  
